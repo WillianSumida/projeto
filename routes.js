@@ -55,19 +55,9 @@ app.get("/sair" , sair);
 
 
 
-
-
-//app.put("/musica", updateMusica);
-//app.delete("/musica", updateMusica);
-
 app.listen(porta, () => {
      console.log(`rodou na porta ${porta}`);
 })
-
-
-function deleteMusica(req, res){
-    res.sen('delete msucica')
-}
 
 
 
